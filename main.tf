@@ -1,3 +1,6 @@
+provider "azurerm" {
+  features {}
+}
 module "azure-private-dns-zone" {
   source  = "app.harness.io/EeRjnXTnS4GrLG5VNNJZUw/azure-private-dns-zone/azurerm"
   version = "v1.0.1"
